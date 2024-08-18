@@ -1,8 +1,7 @@
 # cs465-fullstack
 CS-465 Full Stack Development with MEAN
 
-**Architecture
-**
+**Architecture**
 
 The Express HTML pages worked like a typical website in terms of displaying information and allowing the users to enter data and click links. The single-page application (SPA) contained all of the necessary data and functions on a single page and only displayed some options if the user was logged in. JavaScript was used for the functionality of both of these aspects. The backend uses a NoSQL MongoDB database to allow for the trips to be saved in a database as JSON documents to be used in both the Express website and the SPA. This is more efficient than trying to read them from the file system.
 
